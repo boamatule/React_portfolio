@@ -12,6 +12,7 @@ import "./css/tailwind.css"
 
 
 
+
 const App = () => {
     return (
         <div className="page-wrapper">
@@ -27,7 +28,8 @@ const App = () => {
                 <Footer />
             </div >
         </div >
-    ) 
+    )
+
 };
 
 ReactDOM.render((
