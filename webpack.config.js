@@ -24,7 +24,7 @@ module.exports = {
     publicPath: "/dist/",
     filename: "bundle.js"
   },
- 
+
   devServer: {
     contentBase: path.join(__dirname, "/"),
     port: 3000,
@@ -32,7 +32,6 @@ module.exports = {
     watchContentBase: true,
     historyApiFallback: true,
   },
-  
-  
+
   plugins: [new webpack.HotModuleReplacementPlugin()]
 }
