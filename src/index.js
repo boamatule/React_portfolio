@@ -7,6 +7,8 @@ import Header from "./Header"
 import Footer from "./Footer"
 import Projects from "./Projects"
 import About from "./About"
+import About from "./CV"
+import About from "./Contact"
 import "./css/tailwind.css"
 
 
@@ -20,7 +22,9 @@ const App = () => {
                 <Header />
                 <div className="content-wrapper">
                     <Switch>
-                        <Route exact path='/' component={Hello}></Route>
+                        <Route exact path='/cv' component={Hello}></Route>
+                        <Route exact path='/contact' component={Hello}></Route>
+                        <Route exact path='/hello' component={Hello}></Route>
                         <Route exact path='/about' component={About}></Route>
                         <Route exact path='/projects' component={Projects}></Route>
                     </Switch>
