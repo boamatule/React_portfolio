@@ -1,42 +1,37 @@
-import React from "react"
-import UndrawPlainCreditCard from "react-undraw-illustrations/lib/components/UndrawPlainCreditCard/UndrawPlainCreditCard";
-import { on } from "cluster";
+import React, { Component } from "react"
+import axios from "axios"
 
-"contact" : {
-    "first_name": "Boaventura",
-    "last_name": "Matule",
-    "website": "",
-    "email": "boa.matule@gmail.com",
-    "github": "",
-    "city": "Oslo"
-}
+//import ProjectCard from "./ProjectCard"
+//import { UndrawDashboard } from "react-undraw-illustrations"; 
 
-"item-education": {
-    "start-date": "",
-    "end-date": "",
-    "institution": {
-        "name": "Craft Academy",
-        "city": "Gothenburg",
-        "country": "Sweden"
-    },
-    "description": "",
-    "additional-info": "Fullstack Web Develover Student"
-}
+class Resume extends Component {
+    constructor() {
+        super();
+        this.state = {
+            resume: []
+        };
+    }
 
-  "item-work": {
-    "start-date": "",
-    "end-date": "",
-    "position": "",
-    "company": {
-        "name": "",
-        "city": "",
-        "country": ""
-    },
+    componentDidMount() {
+        axios.get('./src/data/resume.json')
+            .then(response => {
+                this.setState({
+                resume: response.data
+            });
+        })
+    }    
 
-    "achievements": "",
-    "technologies": ["", ""]
-}
+    render() {
+        const resume = this.state.resume
+    
 
-"skills" : ["skill1", "skill2"]
+            resume.json = resume.map(resume => {
+                return (
+                key={resume:id}
+                )
+            })
+        }
+};
+
 
 export default Resume 

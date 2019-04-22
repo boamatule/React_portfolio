@@ -1,0 +1,59 @@
+[  
+  { 
+      "id": 1,
+      "name": "Boa Matule",
+      "label": "FullStack Web Developer Student",
+      "picture": "",
+      "email": "boa.matule@gmail.com",
+      "phone": "",
+      "degree": "",
+      "website": "",
+      "summary": "Born and raised in Mozambique, Africa. Moved to Sweden in 2008. Now based in Oslo since 2014.",
+      "highlights": null
+  },
+  {
+
+        "id": 2,
+        "address": "Oslo",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "",
+        "region": "Norway"
+  },
+
+  
+  {
+        
+          "id": 3,
+          "network": "",
+          "username": "",
+          "url": ""
+  },
+  
+  
+  {       
+
+        "id": 4,
+        "company": "Kolonial.no AS",
+        "position": "Wherehouse operator",
+        "website": "www.kolonial.no",
+        "startDate": "01-01-2016",
+        "endDate": "30-03-2019",
+        "summary": "",
+        "highlights":""
+        
+  },
+  
+  {      
+      
+        "id": 5,
+        "institution": "Craft Academy",
+        "area": "",
+        "studyType": "",
+        "startDate": "",
+        "endDate": "",
+        "gpa": "",
+        "courses": ""
+  }
+
+]

@@ -4,9 +4,6 @@ import ProjectCard from "./ProjectCard"
 import { UndrawDashboard } from "react-undraw-illustrations"; 
 
 
-
-
-
 class Projects extends Component {
     constructor() {
         super();
@@ -40,7 +37,7 @@ class Projects extends Component {
         }
 
         return (
-           <div className="content-wrapper">
+            <div className="content-wrapper">
                 <div className="flex mb-4">
                     <div className="w-1/4">
                         <UndrawDashboard />
